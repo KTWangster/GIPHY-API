@@ -1,0 +1,160 @@
+.container {
+    width: 75%;
+    margin: 10px;
+}
+
+body {
+    background: #000000;
+}
+
+.title {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#topics {
+    margin-bottom: 0px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+button {
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 12px;
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px 1px 1px 10px;
+    letter-spacing: 1px;
+    border: 5px #6b66fa;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+
+button:hover {
+    background: linear-gradient(#ff6669, #6b66fa);
+}
+
+
+/* SEARCH FORM */
+
+form {
+    margin: 10px;
+}
+
+
+/* Input Text Box */
+
+#dogInput {
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    width: 50%;
+    float: left;
+    margin-right: 0px;
+    border: none;
+}
+
+input[type="text"] {
+    animation: move 1s;
+    -webkit-animation: move 1s;
+}
+
+@keyframes move {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+@-webkit-keyframes move {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+
+/* End Input Text Box */
+
+
+/* "Add a Doggo!" Button */
+
+#addDog {
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    background: linear-gradient(to bottom right, #ff6669, #6b66fa);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    letter-spacing: 1px;
+    margin-left: 0px;
+    float: left;
+    animation: rise 3s;
+    -webkit-animation: rise 3s;
+}
+
+#addDog:hover {
+    background: linear-gradient(to bottom right, #6b66fa, #ff6669);
+}
+
+@keyframes rise {
+    from {
+        margin-top: 100%;
+    }
+    to {
+        margin-top: 0%;
+    }
+}
+
+@-webkit-keyframes fise {
+    from {
+        margin-top: 100%;
+    }
+    to {
+        margin-top 0%;
+    }
+}
+
+
+/* End "Add a Doggo!" Button */
+
+
+/* End: SEARCH FORM */
+
+
+/* Dog Gifs Div */
+
+#dogGifsHere {
+    clear: left;
+}
+
+
+/* End: Dog Gifs Div */
+
+
+/* Coda, Palanquin, monserrat */
+
+
+/* font-family: 'Coda Caption', sans-serif; */
+
+
+/* font-family: 'Open Sans', sans-serif;

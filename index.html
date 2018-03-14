@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dogs on GIPHY API</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Open+Sans:300|Roboto:900" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <!-- Title -->
+            <h1>DOGGOS on GIPHY</h1>
+
+            <div id="topics"></div>
+        </div>
+
+
+
+        <!-- Rendered buttons will end up here.  -->
+        <div id="gifButtons"></div>
+
+        <!-- Text input box and search button. -->
+        <form id="search-form">
+            <!-- Text box -->
+            <input type="text" id="dogInput" placeholder="Search for a doggo!">
+            <!-- Button triggers new dog GIF to be added. -->
+            <input id="addDog" type="submit" value="Add Doggo!">
+        </form>
+
+        <!-- Dog GIFS will end up here. -->
+        <div id="dogGifsHere"></div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
